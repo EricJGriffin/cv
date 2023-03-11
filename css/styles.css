@@ -1,0 +1,244 @@
+
+
+h1 {
+    margin: 50px auto 0 auto;
+    /* Note, there are two common ways to center elements. One is to use text-align: center. The other is used
+    when you have a block element AND the width is set. If the width is not set, then text-align: center; will work.
+    If the width is set, then you can set the margin to auto. it would look like this: margin: 0 auto 0 auto; */
+    font-size: 5.6rem; /* rem is root-em. it doesn't inherit size additions from parent elements */
+    font-family: 'Homemade Apple', cursive;
+    color: #473C33;
+    line-height: 2;
+}
+h2 {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 2.5rem;
+    color: #473C33;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Shantell Sans', cursive;
+    color: #11999E;
+}
+
+p {
+    font-family: 'Shantell Sans', cursive;
+}
+
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    /* font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; */
+}
+
+.top-container {
+    background-color: #FEC868;
+    padding-top: 60px;
+    position: relative;
+/*
+    padding: 20px;
+    border: 10px solid;
+*/
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding-top: 20px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+/*
+ Note: elements can be of 4 different display types: block, inline, inline-block, or None
+ - block allows for one element per row, elements expands over the entire width of the page.
+ - inline allows for elements to be next to each other but you can't set the width
+ - inline-block allows for elements to be next to each other and you can adjust the width
+ - None gets rid of the element
+ */
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 20%;
+    top: 10px;
+}
+
+.top-dragon {
+    position: absolute;
+    left: 20%;
+    top: 40px;
+    width: 10%;
+}
+
+.bottom-dragon {
+    position: absolute;
+    right: 20%;
+    bottom: 40px;
+    width: 15%;
+}
+
+.profile-img {
+    border-radius: 100%
+}
+
+
+
+a {
+    color: #11999E;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.left-skill-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.right-skill-img {
+    width: 25%;
+    float: right;  /* clear: right; would be the opposite of float. you'd use it if you floated an image but only wanted
+                      some elements to wrap around the image but not some other elements. the Elements you did not want
+                      to wrap around the image, you would use clear: right; ( or left)*/
+    margin-left: 30px;
+    text-align: right;
+}
+
+.project-row {
+    width: 50%;
+    margin: 100px auto 200px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.project-row-right {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    line-height: 2;
+}
+.project-img {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.project-img-right {
+    width: 50%;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.projects {
+    margin-bottom: 50px;
+}
+/*
+.left-skill-description {
+    clear: left;
+}
+
+.right-skill-description {
+    clear: right;
+}
+*/
+
+hr {
+    width: 6%;
+    border: None;
+    border-top: dotted #C0C0C0;
+    border-width: thick;
+    margin: 50px auto 50px auto;
+}
+
+.last-hr {
+    clear: left;
+    margin-top: 100px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.contact-me {
+    margin-bottom: 50px;
+}
+
+.contact-para {
+    margin-bottom: 40px;
+}
+
+.footer-link {
+    color: #3F497F;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+.git-link {
+    color: #11999E;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Shantell Sans', cursive;
+    position: relative;
+}
+
+.git-link:hover {
+    color: #FEC868;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 75%;
+}
+
+.mountain-img {
+    color: #c99868;
+}
